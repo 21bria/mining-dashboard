@@ -1,54 +1,47 @@
-![nuxt-shadcn-dashboard-social-card](https://nuxt-shadcn-dashboard.vercel.app/social-card.png)
+# ⛏️ Mining Dashboard
 
-# Nuxt Shadcn Vue TailwindCSS 4 - Dashboard
+Mining Dashboard is a modern web-based monitoring system built with **Nuxt 3** to visualize and analyze mining production data in real-time.
 
-[![built with nuxt][nuxt-src]][nuxt-href]
+This dashboard helps operational teams monitor material movement, stockpile balance, and production performance through interactive charts and dynamic filtering.
 
-- [Live demo](https://nuxt-shadcn-dashboard.vercel.app)
-- [Component Documentation](https://shadcn-vue.com/docs/introduction)
+---
 
-## Quick Start
+## 🚀 Features
 
-```bash [Terminal]
-npx nuxi@latest init -t github:dianprata/nuxt-shadcn-dashboard my-dashboard-app
-cd my-dashboard-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-```
+- Dynamic filtering (Daily, Weekly, Monthly, Yearly, MTD, YTD)
+- Centralized filter management using Pinia
+- Interactive charts (Limonite & Saprolite movement)
+- Real-time API integration with Django backend
+- Cookie-based authentication (access & refresh token)
+- Responsive and modern UI with TailwindCSS + Shadcn Vue
+- Modular dashboard layout
 
-## App Settings
-You can change the app settings in `app.config.ts` file.
-If you want to change app settings, you have to clear cookie 'app_settings' first.
-```
-export default defineAppConfig({
-  appSettings: {
-    sidebar: {
-      collapsible: 'offcanvas', // 'offcanvas' | 'icon' | 'none'
-      side: 'left', // 'left' | 'right'
-      variant: 'inset', // 'sidebar' | 'floating' | 'inset'
-    },
-    theme: {
-      color: 'default', // 'default' | 'blue' | 'green' | 'orange' | 'purple' | 'red' | 'teal' | 'yellow' | 'rose'
-      type: 'scaled', // 'default' | 'mono' | 'scaled'
-    }
-  },
-})
-```
+---
 
-## Contributing
+## 🛠 Tech Stack
 
-1. Clone this repository.
-2. Install dependencies `pnpm install`.
-3. Use `pnpm run dev` to start dev server.
+- **Nuxt 3**
+- **Vue 3**
+- **TailwindCSS 4**
+- **Shadcn Vue**
+- **Pinia (Centralized State & Filter Management)**
+- **@unovis/vue (Chart Components)**
+- **Django REST API (Backend Integration)**
 
-## Credits
+---
 
-- [Nuxt.js](https://nuxtjs.org/)
-- [Shadcn Vue](https://shadcn-vue.com/)
-- [TailwindCSS](https://tailwindcss.com/)
+## 📊 Core Modules
 
-## License
+- Production Summary
+- Material Movement
+- Stockpile Monitoring
+- Quality Detail View
+- Dynamic Chart Filtering System
 
-MIT
+---
 
-[nuxt-src]: https://img.shields.io/badge/Built%20With%20Nuxt-18181B?logo=nuxt.js
-[nuxt-href]: https://nuxt.com/
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
