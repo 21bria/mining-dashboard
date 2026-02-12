@@ -1,0 +1,6 @@
+// export const BASE_URL = 'http://127.0.0.1:8000/'
+// export const URL_GET_DATA = 'http://127.0.0.1:8000/kqms/'
+export const BASE_URL = 'http://192.168.1.68:8000/'
+export const URL_GET_DATA = 'http://192.168.1.68:8000/kqms/'
+// export const BASE_URL     = 'https://kawi-nickel.com/'
+// export const URL_GET_DATA = 'https://kawi-nickel.com/kqms/'
